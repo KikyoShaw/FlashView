@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="FlashView">
+      <UniqueIdentifier>{8b65189c-3ae4-4930-884b-11e76b3d58b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Third">
+      <UniqueIdentifier>{a245b183-ffeb-41d9-a6fa-5996905321a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Third\json">
+      <UniqueIdentifier>{582c90a1-1d46-4b05-b2e0-845ee412d74d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Third\unzip">
+      <UniqueIdentifier>{7602204b-ae59-4beb-8d58-0fd3d4392cd3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="FlashViewPlayer.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="FlashViewPlayer.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="FlashViewPlayer.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClCompile Include="FlashViewPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashView\AnimData.cpp">
+      <Filter>FlashView</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashView\FlashDataParser.cpp">
+      <Filter>FlashView</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashView\FlashView.cpp">
+      <Filter>FlashView</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashView\FlashViewCallback.cpp">
+      <Filter>FlashView</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashView\FlashViewDownloader.cpp">
+      <Filter>FlashView</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashView\KeyFrameData.cpp">
+      <Filter>FlashView</Filter>
+    </ClCompile>
+    <ClCompile Include="include\jsoncpp\jsoncpp.cpp">
+      <Filter>Third\json</Filter>
+    </ClCompile>
+    <ClCompile Include="include\unzip\ioapi.cpp">
+      <Filter>Third\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="include\unzip\ioapi_mem.cpp">
+      <Filter>Third\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="include\unzip\unzip.cpp">
+      <Filter>Third\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="WidgetFlash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FlashView\AnimData.h">
+      <Filter>FlashView</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashView\FlashViewCallback.h">
+      <Filter>FlashView</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashView\KeyFrameData.h">
+      <Filter>FlashView</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jsoncpp\json.h">
+      <Filter>Third\json</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jsoncpp\json-forwards.h">
+      <Filter>Third\json</Filter>
+    </ClInclude>
+    <ClInclude Include="include\unzip\crypt.h">
+      <Filter>Third\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="include\unzip\ioapi.h">
+      <Filter>Third\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="include\unzip\ioapi_mem.h">
+      <Filter>Third\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="include\unzip\unzip.h">
+      <Filter>Third\unzip</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="FlashView\FlashDataParser.h">
+      <Filter>FlashView</Filter>
+    </QtMoc>
+    <QtMoc Include="FlashView\FlashView.h">
+      <Filter>FlashView</Filter>
+    </QtMoc>
+    <QtMoc Include="FlashView\FlashViewDownloader.h">
+      <Filter>FlashView</Filter>
+    </QtMoc>
+    <QtMoc Include="WidgetFlash.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>
